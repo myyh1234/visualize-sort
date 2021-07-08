@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sort Simulator</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        #container{
+            width: 1000px;
+            height: 800px;
+            margin: 20px auto;
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <h1>SORT SIMULATOR</h1>
+    <select name="algo_name" id="algorithm">
+        <option value="bubble">Bubble Sort</option>
+        <option value="insertion">Insertion Sort</option>
+        <option value="selection">Selection Sort</option>
+        <option value="quick">Quick Sort</option>
+        <option value="merge">Merge Sort</option>
+    </select>
+    <button id="btn">SORT!</button>
+    <div id="container">
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
