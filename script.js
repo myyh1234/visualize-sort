@@ -68,6 +68,8 @@ btn.onclick = () => {
     clearInterval(interval)
     switch(algo.value){
         case "bubble":
+            a = 0
+            b = 0
             interval = setInterval(() => {
                 bubbleSort(arr)
             }, 5);
